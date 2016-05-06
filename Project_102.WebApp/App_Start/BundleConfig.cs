@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Project_102.Web
+namespace Project_102.WebApp
 {
     public class BundleConfig
     {
@@ -24,8 +24,8 @@ namespace Project_102.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                       "~/Content/agency.css"));
+                     "~/Content/bootstrap.css",
+                      "~/Content/agency.css"));
         }
     }
 }
